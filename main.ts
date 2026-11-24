@@ -23,6 +23,9 @@
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
+// Structure: an AI boast ("94% accuracy") undercut in the same sentence
+// by a dating-native punch at the very end ("left me on read") — the joke
+// is the gap between what the model can compute and what it cannot.
 const BIO =
   "I can predict your next message with 94% accuracy, and I still have no idea why you left me on read.";
 
